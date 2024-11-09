@@ -3,7 +3,7 @@
 
 ## Prerequisites
 ```
-git clone https://github.com/Dabai93/shadow_removal_project.git
+git clone https://github.com/lizhongni/shadow_removal_project.git
 cd shadow_removal_project
 conda create -n shadow python=3.7
 conda activate shadow
@@ -24,11 +24,11 @@ pip3 install -r requirements.txt
    The LRSS dataset contains 134 shadow images (62 pairs of shadow and shadow-free images). <br>
    We use 34 pairs for testing and 100 shadow images for training. <br>
    For shadow-free training images, 28 from LRSS and 72 randomly selected from the USR dataset.<br>
-   |[[Dropbox]](https://www.dropbox.com/scl/fo/3dt75e23riozwa6uczeqd/ABNkIZKaP8jFarfNrUUjpVg?rlkey=eyfjn7dhd9pbz6rh247ylbt0c&st=01lh80r8&dl=0)|[[BaiduPan(code:t9c7)]](https://pan.baidu.com/s/1c_VsDVC92WnvI92v8cldsg?pwd=t9c7)|
+   |[[BaiduPan(code:t9c7)]](https://pan.baidu.com/s/1c_VsDVC92WnvI92v8cldsg?pwd=t9c7)|
    | :-----------: | :-----------: |
 
 
-## Pre-trained Models: [[Dropbox]](https://www.dropbox.com/sh/346iirg55e1qnir/AADqxEu8vyj4KfKR0wOfELjKa?dl=0) | [[BaiduPan(code:gr59)]](https://pan.baidu.com/s/1EyYvjeu6AnJuY3wEuJS74A?pwd=gr59) 
+## Pre-trained Models: [[BaiduPan(code:gr59)]](https://pan.baidu.com/s/1EyYvjeu6AnJuY3wEuJS74A?pwd=gr59) 
 | Dataset  | Model Dropbox | Model BaiduPan | Model Put in Path| Results Dropbox | Results BaiduPan |
 | :----: | :-----------: | :----------: |:---------------: |  :----------: |:---------------: | 
 | SRD |[[BaiduPan(code:zhd2)]](https://pan.baidu.com/s/1CV1wQkSMR9OOw9ROAdY-pg?pwd=zhd2) |`results/SRD/model/`| 
@@ -85,5 +85,3 @@ ${DCShadowNet}
 > bash train.sh
 > python train.py --dataset 'SRD' --datasetpath '/home/luni/shadow_removal_project/dataset/SRD' --iteration 20 --batch_size 1 --lr 0.0001 --device 'cpu'
 ```
-
-
