@@ -1,0 +1,9 @@
+pytorch=1.10.2 
+torchvision 
+torchaudio 
+cudatoolkit=11.3
+
+pillow
+scipy
+opencv-python==4.4.0.46
+pyyaml
